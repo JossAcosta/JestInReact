@@ -9,7 +9,7 @@ const App = () => (
   <BrowserRouter>
     <Layout>
       <Switch>
-        <Route exact path="/JestInReact/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/checkout" component={Checkout} />
         <Route component={NotFound} />
       </Switch>
